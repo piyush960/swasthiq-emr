@@ -37,7 +37,7 @@ npm install
 ```
 
 2️⃣ Configure API
-Create `.env` file:
+Create `.env` file (get it from `cdk-outputs.json` file created automatically after deployment):
 
 ```
 VITE_APPSYNC_ENDPOINT=<GraphQL URL>
@@ -78,8 +78,6 @@ Amplify Client Setup:
 
 ## 🚀 Deployment
 
-You can deploy to:
-
-* **Vercel / Netlify**
+Deployed on vercel: [production link](https://swasthiq-emr.vercel.app/)
 
 Just ensure `.env` exists.

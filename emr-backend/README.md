@@ -58,7 +58,7 @@ cdk bootstrap
 3️⃣ Deploy
 
 ```bash
-cdk deploy
+cdk deploy --outputs-file cdk-outputs.json
 ```
 
 ---

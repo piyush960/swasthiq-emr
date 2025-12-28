@@ -30,5 +30,6 @@ __pycache__
 
 .cdk.staging
 cdk.out
+cdk-outputs.json
 
 .env
