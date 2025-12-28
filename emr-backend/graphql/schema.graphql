@@ -1,0 +1,35 @@
+type Appointment {
+  id: ID!
+  patientName: String!
+  date: String!
+  time: String!
+  duration: Int!
+  doctorName: String!
+  status: String!
+  mode: String!
+}
+
+input CreateAppointmentInput {
+  patientName: String!
+  date: String!
+  time: String!
+  duration: Int!
+  doctorName: String!
+  mode: String!
+  status: String
+}
+
+type Query {
+  getAppointments(date: String, status: String, doctorName: String): [Appointment]
+}
+
+type Mutation {
+  createAppointment(input: CreateAppointmentInput!): Appointment
+  updateAppointmentStatus(id: ID!, new_status: String!): Appointment
+  deleteAppointment(id: ID!): Boolean
+}
+
+type Subscription {
+  onAppointmentUpdate: Appointment
+    @aws_subscribe(mutations: ["updateAppointmentStatus"])
+}
