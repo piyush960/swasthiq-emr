@@ -50,6 +50,7 @@ pip install -r requirements.txt
 ```
 
 2️⃣ Bootstrap AWS CDK
+region should be `ap-south-1` or `us-east-1` to ensure aurora version support.
 
 ```bash
 cdk bootstrap
