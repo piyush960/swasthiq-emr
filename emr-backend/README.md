@@ -43,7 +43,7 @@ It is built using **AWS CDK**, **AWS AppSync**, **Lambda (Python)** and **Aurora
 
 ---
 
-## ▶️ Running Backend
+## Running Backend
 1️⃣ Install dependencies  
 ```bash
 pip install -r requirements.txt

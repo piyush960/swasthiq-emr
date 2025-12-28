@@ -21,7 +21,7 @@ It integrates with AWS AppSync GraphQL Backend to provide:
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 - React + Vite
 - Tailwind CSS
 - Amplify GraphQL Client
@@ -30,7 +30,7 @@ It integrates with AWS AppSync GraphQL Backend to provide:
 
 ---
 
-## ▶️ Running Locally
+## Running Locally
 1️⃣ Install Dependencies
 ```bash
 npm install
@@ -76,7 +76,7 @@ Amplify Client Setup:
 
 ---
 
-## 🚀 Deployment
+## Deployment
 
 Deployed on vercel: [production link](https://swasthiq-emr.vercel.app/)
 
